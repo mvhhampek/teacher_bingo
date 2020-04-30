@@ -26,6 +26,7 @@ let tjohej = [
     "Ber elever göra google meet till betygsamtal",
     "Felaktig frånvaro",
     "Tjohej uttalar ens namn helt fel",
-    "\"Har ni fått betyg av Linda?\""
+    "Tjohej håller på att somna",
+    "\"Love everybody unconditionally\""
 ];
 
