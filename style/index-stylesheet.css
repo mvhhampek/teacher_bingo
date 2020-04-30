@@ -14,6 +14,7 @@ h1{
     font-size: 72px;
     margin-top: 2.5%;
     text-align: center;
+    text-transform: uppercase;
 }
 .grid{
     display: grid;

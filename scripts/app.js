@@ -7,7 +7,7 @@ const grid = document.querySelector('.grid');
 
 for (let i = 0, len = grid.children.length; i < len; i++){
     grid.children[i].addEventListener('click', () => {
-        circle[i].style.display = 'block';
+        circle[i].style.display = circle[i].style.display == 'none' ? 'block' : 'none';
     })
 }
 
@@ -31,7 +31,9 @@ function Fill () {
             cells[i].textContent = tjohej[i];
     }
 }
+
 Fill();
+Reset();
 resetBtn.addEventListener('click', () => {
     Reset();
 });
