@@ -88,3 +88,17 @@ button{
 .grid :nth-child(5n-5){
     border-right: 2px solid black;
 }
+
+@media (min-width: 1000px) {
+    .grid{
+        grid-template-columns: 115px 115px 115px 115px 115px;
+        grid-template-rows: 115px 115px 115px 115px 115px;
+    }
+    .cell {
+        width: 115px;
+        height: 115px;
+    }
+    .cell-text{
+        font-size: 12px;
+    }
+}

@@ -5,6 +5,10 @@ let resetBtn = document.querySelector('.reset-button');
 let circle = document.querySelectorAll('.circle');
 const grid = document.querySelector('.grid');
 
+
+let header = document.querySelector('.header');
+
+
 for (let i = 0, len = grid.children.length; i < len; i++){
     grid.children[i].addEventListener('click', () => {
         circle[i].style.display = circle[i].style.display == 'none' ? 'block' : 'none';
