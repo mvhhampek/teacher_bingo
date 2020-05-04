@@ -89,14 +89,20 @@ button{
     border-right: 2px solid black;
 }
 
-@media (min-width: 1000px) {
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+    .circle{
+        width: 80px;
+        height: 80px;
+        margin-top: 18px;
+        margin-left: 18px;
+    }
     .grid{
-        grid-template-columns: 115px 115px 115px 115px 115px;
-        grid-template-rows: 115px 115px 115px 115px 115px;
+        grid-template-columns: 116px 116px 116px 116px 116px;
+        grid-template-rows: 116px 116px 116px 116px 116px;
     }
     .cell {
-        width: 115px;
-        height: 115px;
+        width: 116px;
+        height: 116px;
     }
     .cell-text{
         font-size: 12px;
